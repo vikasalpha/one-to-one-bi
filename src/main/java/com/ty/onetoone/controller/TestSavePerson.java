@@ -9,7 +9,9 @@ import javax.persistence.Persistence;
 
 import com.ty.onetoone.dto.Pan;
 import com.ty.onetoone.dto.Person;
-
+/*
+ * This calss is a n example for saving the person data to db
+ */
 public class TestSavePerson {
 	public static void main(String[] args) {
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("dev");

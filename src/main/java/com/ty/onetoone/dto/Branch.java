@@ -5,6 +5,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
+/*
+ * Branch entity class is mapped to DB table by the name branch
+ */
 
 @Entity
 public class Branch {

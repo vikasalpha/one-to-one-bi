@@ -15,6 +15,7 @@ public class TestBranch {
 		EntityManager entityManager = entityManagerFactory.createEntityManager();
 		EntityTransaction entityTransaction = entityManager.getTransaction();
 		
+		//Creating branch object
 		Branch branch = new Branch();
 		branch.setName("QSP");
 		branch.setPhone(9988);
