@@ -6,4 +6,8 @@ public class BranchDao {
 	public Branch saveBranch(Branch branch) {
 		return null;
 	}
+	
+	public Branch getBranchById(int id) {
+		return null;
+	}
 }
